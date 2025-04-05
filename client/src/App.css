@@ -1,0 +1,108 @@
+.App {
+  min-height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.popular-section {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #111111;
+  border-radius: 8px;
+}
+
+.popular-section h2 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.trainers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.trainer-card {
+  background-color: #222222;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.trainer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.trainer-card h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.trainer-card p {
+  color: #cccccc;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.stars {
+  color: #ffd700;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.join-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.join-button {
+  background-color: #ff5722;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.join-button:hover {
+  background-color: #f4511e;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+} 

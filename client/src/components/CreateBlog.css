@@ -1,0 +1,38 @@
+.create-blog {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.form-group textarea {
+  height: 200px;
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #4CAF50;
+} 
