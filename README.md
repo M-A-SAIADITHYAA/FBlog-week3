@@ -6,14 +6,13 @@ FBlog is a full-stack web application that allows users to create and share fitn
 
 - **Blog Posts**: Create and view fitness-related blog posts
 - **Popular Trainers**: Browse through a list of top-rated fitness trainers
-- **Trainee Registration**: Join as a trainee through an integrated Google Form
+- **Trainee Registration**: Join as a trainee 
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 - **Dark Theme**: Modern dark UI for better user experience
 
 ## Tech Stack
 
 ### Frontend
-- React.js
 - React Router for navigation
 - Axios for API requests
 - CSS for styling
@@ -89,21 +88,7 @@ fblog/
 └── README.md                # Project documentation
 ```
 
-## API Endpoints
+## Video demo
 
-- `GET /api/blogs`: Get all blog posts
-- `POST /api/blogs`: Create a new blog post
+https://github.com/user-attachments/assets/350dff3b-e8a9-4a50-bdc9-18f7323216e6
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgements
-
-- React.js team for the amazing frontend library
-- Express.js team for the backend framework
-- MongoDB team for the database 
